@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 40px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #666;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.moreinfo {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.moreinfo-avatar {
+  flex: 1;
+}
+
+.moreinfo-note {
+  flex: 3;
+  margin-left: 10px;
+}
+
+.emails {
+  font-size: small;
+}
